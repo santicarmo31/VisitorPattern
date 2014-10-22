@@ -26,7 +26,7 @@ public class PrintVisitor implements Visitor{
           a = "Ocupada"; 
           
       }
-      System.out.println( "Se visito la habitacion matrimonial de numero " + suit.numberRoom + " que esta " + a );
+      System.out.println( "Se visito la habitacion suite de numero " + suit.numberRoom + " que esta " + a );
    }
     @Override
    public void visit(Sencilla sencilla) {
@@ -35,7 +35,7 @@ public class PrintVisitor implements Visitor{
           a = "Ocupada"; 
           
       }
-      System.out.println( "Se visito la habitacion matrimonial de numero " + sencilla.numberRoom + " que esta " + a );
+      System.out.println( "Se visito la habitacion sencilla de numero " + sencilla.numberRoom + " que esta " + a );
    }
 
     @Override
@@ -45,6 +45,6 @@ public class PrintVisitor implements Visitor{
           a = "Ocupada"; 
           
          }
-         System.out.println( "Se visito la habitacion matrimonial de numero " + doble.numberRoom + " que esta " + a );
+         System.out.println( "Se visito la habitacion doble de numero " + doble.numberRoom + " que esta " + a );
     }
 }

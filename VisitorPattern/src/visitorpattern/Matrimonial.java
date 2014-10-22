@@ -17,7 +17,8 @@ public class Matrimonial implements Habitacion{
         this.numberRoom = x;
         this.ocuppied = y;
 }
-    public void   accept( Visitor v ) {
+    @Override
+    public void accept( Visitor v ) {
      v.visit( this );
     }
 }
